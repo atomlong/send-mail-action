@@ -42,7 +42,7 @@ jobs:
             html_body: file://README.md
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.3.5
+        uses: actions/checkout@v2.4.0
       - name: Send mail
         uses: ./
         with:
